@@ -29,3 +29,9 @@ var6[3] # 100200 içinden 3.indexi yani 4.karakteri alacak. 0-1-2-(3)
 
 #Bir stringi bir sayıyla çarparsak o kadar concat işlemi yapar.
 "Gedik"*3
+
+
+#.format ile print içine value ekleme.
+var1 = "Muharrem"
+var2 = "Gedik"
+print("Benim adım {} Soyadım {}".format(var1,var2))
